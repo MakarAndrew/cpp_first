@@ -1,6 +1,6 @@
 # Временные и мусорные файлы
 build/
-temp.cpp
+temp*
 .vscode/
 .hehe
 
