@@ -1,8 +1,8 @@
 # Временные и мусорные файлы
 build/
-temp
+temp.cpp
 .vscode/
-.token
+.hehe
 
 # Скомпилированные бинарники C++
 a.out
