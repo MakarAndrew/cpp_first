@@ -3,8 +3,9 @@ build/
 temp*
 .vscode/
 .hehe
+.continueignore
 
 # Скомпилированные бинарники C++
 a.out
 *.o
-*.out
+*.outS
