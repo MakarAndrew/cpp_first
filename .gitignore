@@ -4,7 +4,7 @@ temp*
 .vscode/
 .hehe
 .continueignore
-
+new-prompt.md
 # Скомпилированные бинарники C++
 a.out
 *.o
