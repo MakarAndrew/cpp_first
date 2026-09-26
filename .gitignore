@@ -5,6 +5,7 @@ temp*
 .hehe
 .continueignore
 new-prompt.md
+AGENTS.md
 # Скомпилированные бинарники C++
 a.out
 *.o
