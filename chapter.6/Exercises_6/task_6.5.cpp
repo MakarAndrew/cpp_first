@@ -11,3 +11,36 @@
 выдачи подлежащего к выплате налога. Цикл должен завершаться, 
 когда пользователь вводит отрицательное или нечисловое значение.
 */
+#include <iostream>
+using namespace std;
+double calculate_tax (double income)
+{
+    double tax = 0.0;
+    if (income > 35000){
+        tax = 10000 * 0.1 + 20000 * 0.15 + (income - 35000) * 0.20;
+    }
+    else if (income > 15000 && income <= 35000){
+        tax = 10000 * 0.1 + (income - 15000) * 0.15;
+    }
+    else if (income > 5000 && income <= 15000){
+        tax = (income - 5000) * 0.10;
+    }
+    else if (income <= 5000){
+        tax = 0.0;
+    }
+    return tax;
+}
+
+int main()
+{
+    double money;
+    cout << "Сколько вы зарабатываете в тварпах: ";
+    while (cin >> money && money > 0)
+    {
+        double tax = calculate_tax(money);
+        cout << "Налог: " << tax << " тварпов\n";
+        cout << "Сколько вы зарабатываете в тварпах: ";
+    }  
+    cout << "Done!\n";
+    return 0;
+}
