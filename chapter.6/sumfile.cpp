@@ -35,7 +35,7 @@ int main()
     else if (inFile.fail())
     {
         // ввод прекращен из за несоответствия типа данных
-        cout << "Input terminated by dta mismatch.\n";
+        cout << "Input terminated by data mismatch.\n";
     }
     else
     {
